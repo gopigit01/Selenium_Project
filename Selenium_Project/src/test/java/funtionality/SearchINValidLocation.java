@@ -88,12 +88,20 @@ public class SearchINValidLocation {
 		Thread.sleep(2000);
 
 		// d1.findElement(By.id("toPlaceName")).sendKeys("HHHHHHHHHH%%%");
-		Elements.SearcInvalidPageToPlaceName.sendKeys("HHHHHHHHHH%%%");
+		Elements.SearcInvalidPageToPlaceName.sendKeys("^&*()%%%");
 		Thread.sleep(1000);
+		//Elements.SearcInvalidPageToPlaceName.sendKeys(Keys.ENTER);
+		Elements.SearcInvalidPageToPlaceName.sendKeys(Keys.TAB);
+		d1.switchTo().alert().accept();
+		d1.quit();
+		
+	//	Thread.sleep(1000);
 		TakesScreenshot t1 = (TakesScreenshot) d1;
 		File source = t1.getScreenshotAs(OutputType.FILE);
 		File dest = new File("D:\\SeleniumPractice\\Selenium_Project\\ScreenShots\\SerachInvalidLocScreen1.jpg");
 		org.openqa.selenium.io.FileHandler.copy(source, dest);
+		d1.switchTo().alert().accept();
+		d1.quit();
 
 		// d1.findElement(By.id("toPlaceName")).sendKeys(Keys.DOWN);
 		// Thread.sleep(1000);
@@ -106,6 +114,7 @@ public class SearchINValidLocation {
 		// d1.findElement(By.xpath("//button[normalize-space()='Search for
 		// Bus']")).click();
 		Elements.SearcInvalidPageClick.click();
+		d1.close();
 
 	}
 

@@ -105,7 +105,7 @@ public class SearchValidLocation {
 		File source = t1.getScreenshotAs(OutputType.FILE);
 		File dest = new File("D:\\SeleniumPractice\\Selenium_Project\\ScreenShots\\SerachValidLocScreen1.jpg");
 		org.openqa.selenium.io.FileHandler.copy(source, dest);
-
+		d1.close();
 	}
 
 }

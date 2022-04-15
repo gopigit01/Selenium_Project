@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="funtionality.DataDrivenInvalidLogin">
+      <class name="funtionality.SearchINValidLocation">
         <methods>
           <include name="f"/>
         </methods>
-      </class> <!-- funtionality.DataDrivenInvalidLogin -->
+      </class> <!-- funtionality.SearchINValidLocation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

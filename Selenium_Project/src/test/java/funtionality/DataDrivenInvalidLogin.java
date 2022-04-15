@@ -1,52 +1,28 @@
 package funtionality;
 
-import java.awt.AWTException;
-import java.awt.Dimension;
-import java.awt.Rectangle;
-import java.awt.Robot;
-import java.awt.Toolkit;
-import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.Iterator;
-import java.util.List;
 import java.util.Properties;
-import java.util.Set;
 import java.util.concurrent.TimeUnit;
-import java.util.logging.FileHandler;
-
-import javax.imageio.ImageIO;
 
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-import jxl.Sheet;
-import jxl.Workbook;
-import jxl.read.biff.BiffException;
 import objectrepository.Elements;
 
 public class DataDrivenInvalidLogin {
-	/*@Test
-	public void f() throws IOException, BiffException {
+	@Test
+	public void f() throws IOException {
 
 		WebDriver d1;
 		FileInputStream fi = new FileInputStream(
@@ -100,7 +76,9 @@ public class DataDrivenInvalidLogin {
 		File source = t1.getScreenshotAs(OutputType.FILE);
 		File dest = new File("D:\\SeleniumPractice\\Selenium_Project\\ScreenShots\\InvalidLoginScreen2.jpg");
 		org.openqa.selenium.io.FileHandler.copy(source, dest);
+		
+		d1.close();
 
 	}
-*/
+
 }

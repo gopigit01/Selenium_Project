@@ -43,8 +43,8 @@ public class RegPage {
 		d1.manage().window().maximize();
 		PageFactory.initElements(d1, Elements.class);
 		JavascriptExecutor jse = (JavascriptExecutor) d1;
-		jse.executeScript("document.getElementById('email').value='gopikrishnagnsty123445@gmail.com'"); // fullName
-		jse.executeScript("document.getElementById('fullName').value='G2GG'");
+		jse.executeScript("document.getElementById('email').value='gopikrishnagnsty1234455@gmail.com'"); // fullName
+		jse.executeScript("document.getElementById('fullName').value='G22GG'");
 		jse.executeScript("document.getElementById('mobileNo').value='6736787772'");
 
 		// d1.findElement(By.xpath("//input[@title='Add']")).click();

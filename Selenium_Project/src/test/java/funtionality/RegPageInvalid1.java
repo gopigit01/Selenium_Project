@@ -53,7 +53,8 @@ public class RegPageInvalid1 {
 
 		// d1.findElement(By.xpath("//input[@title='Add']")).click();
 		Elements.RegAddButton.click();
-
+		d1.switchTo().alert().accept();
+		d1.close();
 	}
 
 }

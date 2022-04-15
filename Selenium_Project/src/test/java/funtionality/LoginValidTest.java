@@ -115,6 +115,8 @@ public class LoginValidTest {
 		File source = t1.getScreenshotAs(OutputType.FILE);
 		File dest = new File("D:\\SeleniumPractice\\Selenium_Project\\ScreenShots\\ValidLoginScreen1.jpg");
 		org.openqa.selenium.io.FileHandler.copy(source, dest);
+		
+		d1.close();
 
 	}
 

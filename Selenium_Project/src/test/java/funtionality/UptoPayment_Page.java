@@ -121,6 +121,7 @@ public class UptoPayment_Page {
 		File source = t1.getScreenshotAs(OutputType.FILE);
 		File dest = new File("D:\\SeleniumPractice\\Selenium_Project\\ScreenShots\\UptoPaymentScreen1.jpg");
 		org.openqa.selenium.io.FileHandler.copy(source, dest);
+		d1.close();
 	}
 
 }
