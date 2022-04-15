@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="funtionality.SearchINValidLocation"/>
+      <class name="funtionality.RegPageInvalid1"/>
+      <class name="funtionality.UptoPayment_Page"/>
+      <class name="funtionality.DataDrivenInvalidLogin"/>
+      <class name="funtionality.RegPage"/>
+      <class name="funtionality.SearchValidLocation"/>
+      <class name="funtionality.LoginValidTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
