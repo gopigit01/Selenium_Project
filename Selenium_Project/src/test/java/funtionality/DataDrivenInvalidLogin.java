@@ -45,7 +45,7 @@ import jxl.read.biff.BiffException;
 import objectrepository.Elements;
 
 public class DataDrivenInvalidLogin {
-	@Test
+	/*@Test
 	public void f() throws IOException, BiffException {
 
 		WebDriver d1;
@@ -102,5 +102,5 @@ public class DataDrivenInvalidLogin {
 		org.openqa.selenium.io.FileHandler.copy(source, dest);
 
 	}
-
+*/
 }
