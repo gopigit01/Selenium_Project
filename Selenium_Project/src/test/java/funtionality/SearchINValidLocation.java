@@ -96,12 +96,12 @@ public class SearchINValidLocation {
 		d1.quit();
 		
 	//	Thread.sleep(1000);
-		TakesScreenshot t1 = (TakesScreenshot) d1;
+/*		TakesScreenshot t1 = (TakesScreenshot) d1;
 		File source = t1.getScreenshotAs(OutputType.FILE);
 		File dest = new File("D:\\SeleniumPractice\\Selenium_Project\\ScreenShots\\SerachInvalidLocScreen1.jpg");
-		org.openqa.selenium.io.FileHandler.copy(source, dest);
-		d1.switchTo().alert().accept();
-		d1.quit();
+		org.openqa.selenium.io.FileHandler.copy(source, dest);*/
+	//	d1.switchTo().alert().accept();
+		//d1.quit();
 
 		// d1.findElement(By.id("toPlaceName")).sendKeys(Keys.DOWN);
 		// Thread.sleep(1000);
